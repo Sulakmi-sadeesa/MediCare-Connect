@@ -61,15 +61,15 @@ Optimized for both **mobile phones** and **laptops/desktops**.
 
 > **Note:** Staff Website (Reception, Doctor, X-ray, Scan, Lab, Admin) is documented separately and shares the same SQL database. Website** – Reception, Doctor, X-ray, Scan, Lab, Admin
     
-    ---
+---
     
-    ## 🎨 Design
+## 🎨 Design
+
+- **Primary Color:** Dark Blue
+- Creative, user-friendly, comfortable UI
+- Fully responsive (mobile + desktop)
     
-    - **Primary Color:** Dark Blue
-    - Creative, user-friendly, comfortable UI
-    - Fully responsive (mobile + desktop)
-    
-    ---
+   ---
     
     ## 🧑‍⚕️ Public Pages
     
