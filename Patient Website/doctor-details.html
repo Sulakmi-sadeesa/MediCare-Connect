@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wadduwa Clinic – Doctor Details</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <div class="logo">Wadduwa <span>Clinic</span></div>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Our Services</a>
+        <a href="doctors.html" class="active">Doctors</a>
+        <a href="ai-assistant.html">AI Assistant</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-outline">Log in</button>
+        <button class="mobile-toggle" id="mobileToggle">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container section">
+      <a href="doctors.html" class="btn btn-ghost back-btn">← Back to Doctors</a>
+      
+      <div class="doctor-profile-layout">
+        <!-- Left Side -->
+        <div class="doc-profile-main">
+          <div class="doc-profile-header">
+            <div class="doc-profile-avatar">👨‍⚕️</div>
+            <div>
+              <h1 id="docDetailName">Dr. Nalaka Fernando</h1>
+              <p class="specialty" id="docDetailSpecialty">General Physician</p>
+              <p class="exp" id="docDetailExp">15+ Years Experience</p>
+              <p class="doc-bio" id="docDetailBio">Compassionate and dedicated doctor with extensive experience in treating a wide range of general health issues.</p>
+            </div>
+          </div>
+          
+          <div class="about-doctor-box">
+            <h3>About Doctor</h3>
+            <p id="docDetailAbout">Dr. Nalaka Fernando is a highly experienced General Physician committed to providing quality healthcare to patients of all ages. He specializes in the diagnosis, treatment and prevention of general medical conditions.</p>
+            <button class="btn btn-primary" style="margin-top: 1.5rem;">Book Appointment</button>
+          </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="doc-profile-sidebar">
+          <div class="sidebar-card">
+            <h4>Qualifications</h4>
+            <ul class="qual-list" id="docDetailQuals">
+              <li>MBBS-University of Colombo</li>
+              <li>MD in General Medicine</li>
+              <li>Diploma in Family Medicine</li>
+            </ul>
+          </div>
+          
+          <div class="sidebar-card">
+            <h4>Available Days</h4>
+            <ul class="schedule-list" id="docDetailSchedule">
+              <li><span>Monday</span> <span>9.00 AM–1.00 PM</span></li>
+              <li><span>Tuesday</span> <span>2.00 PM–6.00 PM</span></li>
+              <li><span>Wednesday</span> <span>9.00 AM–1.00 PM</span></li>
+              <li><span>Thursday</span> <span>2.00 PM–6.00 PM</span></li>
+              <li><span>Friday</span> <span>9.00 AM–1.00 PM</span></li>
+              <li><span>Saturday</span> <span>9.00 AM–12.00 PM</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="logo" style="margin-bottom: 1rem;">Wadduwa <span>Clinic</span></div>
+        <p>Providing accessible healthcare services with modern facilities and professional medical staff.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Wadduwa Clinic</a></li>
+          <li><a href="doctors.html">Doctors</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Consultation</a></li>
+          <li><a href="#">Scanning</a></li>
+          <li><a href="#">Dental Care</a></li>
+          <li><a href="#">Laboratory</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>629, Wadduwa, Sri Lanka</li>
+          <li>038 2285999</li>
+          <li>info@wadduwaclinic.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Wadduwa Clinic. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

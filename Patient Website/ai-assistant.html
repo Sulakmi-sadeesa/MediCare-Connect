@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wadduwa Clinic – AI Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <div class="logo">Wadduwa <span>Clinic</span></div>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Our Services</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="ai-assistant.html" class="active">AI Assistant</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-outline">Log in</button>
+        <button class="mobile-toggle" id="mobileToggle">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container section ai-container">
+      <div class="ai-header">
+        <h1>Medi AI Assistant ✨</h1>
+        <p>Your smart health companion. Get instant answers to your health questions.</p>
+      </div>
+
+      <div class="ai-layout">
+        <!-- Left Graphic -->
+        <div class="ai-graphic">
+          <div class="graphic-content">
+            <div class="bot-icon">🤖</div>
+            <div class="pulse-line"></div>
+            <div class="chat-bubbles">
+              <span>...</span>
+              <span>...</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Suggestions -->
+        <div class="ai-suggestions">
+          <h3>Try asking something like...</h3>
+          <div class="suggestion-list">
+            <button class="suggestion-btn">💬 What are the symptoms of dengue fever?</button>
+            <button class="suggestion-btn">💬 How can I manage my blood pressure?</button>
+            <button class="suggestion-btn">💬 What should I do for a sore throat?</button>
+            <button class="suggestion-btn">💬 How often should I do a health check-up?</button>
+            <button class="suggestion-btn">💬 What are the side effects of paracetamol?</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Input Area -->
+      <div class="ai-input-area">
+        <input type="text" id="aiInput" placeholder="Type your health question here..." />
+        <button class="btn btn-primary" id="aiSendBtn">➤</button>
+      </div>
+      
+      <div class="ai-disclaimer">
+        <span class="info-icon">ℹ️</span>
+        <p>Please note: Medi AI Assistant provides general health information only and is not a substitute for professional medical advice. For emergencies, contact a doctor immediately.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="logo" style="margin-bottom: 1rem;">Wadduwa <span>Clinic</span></div>
+        <p>Providing accessible healthcare services with modern facilities and professional medical staff.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Wadduwa Clinic</a></li>
+          <li><a href="doctors.html">Doctors</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Consultation</a></li>
+          <li><a href="#">Scanning</a></li>
+          <li><a href="#">Dental Care</a></li>
+          <li><a href="#">Laboratory</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>629, Wadduwa, Sri Lanka</li>
+          <li>038 2285999</li>
+          <li>info@wadduwaclinic.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Wadduwa Clinic. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
